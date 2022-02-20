@@ -18,7 +18,8 @@ $path = isset($_REQUEST["path"]) ? $_REQUEST["path"] : "C:/xampp/htdocs/www/_ass
 
 //with
 $path = isset($_REQUEST["path"]) ? $_REQUEST["path"] : "/path/to/your/images/";
-//or hard coded path, eg
+
+//or hard cod path
 $path = "/path/to/your/images/";
 ```
 
@@ -41,4 +42,4 @@ $description = isset($_REQUEST["description"]) ? $_REQUEST["description"] : "Pho
 // Add a title for display purposes
 $title = isset($_REQUEST["title"]) ? $_REQUEST["title"] : "Android Gallery";
 ```
-Save changes and open <index.php> a browser
+Save changes and open the <index.php> file in a browser.
