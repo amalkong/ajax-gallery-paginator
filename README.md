@@ -12,7 +12,7 @@ Extract the zip file to a folder on your server
 ### How to use
 Open the <index.php> in a text editor of choice and edit the variables indicated below:
 
-```
+``` php
 // Replace
 $path = isset($_REQUEST["path"]) ? $_REQUEST["path"] : "C:/xampp/htdocs/www/_assets/img/gallery/";
 
@@ -24,7 +24,7 @@ $path = "/path/to/your/images/";
 ```
 
 optional config
-```
+``` php
 // This indicates which paginaton page to begin from
 $startIndex = isset($_REQUEST["startIndex"]) ? $_REQUEST["startIndex"] : 0;
 
