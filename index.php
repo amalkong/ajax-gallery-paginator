@@ -176,7 +176,7 @@ if(isset($_REQUEST["path"]) && isset($_REQUEST["is_ajax_call"]) && ($_REQUEST["i
 			let _perPage = <?php echo $perPage;?>;
 		    let albumPhotos = <?php echo $albumPhotos;?>;
 		</script>
-        <script type="text/javascript" src="./app2.js"></script>
+        <script type="text/javascript" src="./app.js"></script>
     </body>
 </html>
 <?php } ?>
